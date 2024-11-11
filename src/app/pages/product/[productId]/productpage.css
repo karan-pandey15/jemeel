@@ -1,0 +1,12 @@
+/* Default for larger screens */
+.productdetailscreen {
+    margin-top: 180px;
+  }
+  
+  /* For screens smaller than 750px */
+  @media (max-width: 750px) {
+    .productdetailscreen {
+      margin-top: 10px;
+    }
+  }
+  

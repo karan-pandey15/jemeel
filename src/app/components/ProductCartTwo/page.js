@@ -5,16 +5,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ProductCart = () => {
+const ProductCartTwo = () => {
   const items = [
-    { id: 1, image: "/images/jemelimg1.png", heading: "Zirconia Studded Blue", price: "₹3000", description: "Elegant zirconia-studded blue ring" },
+    { id: 1, image: "/images/1.jpg", heading: "Zirconia Studded Blue", price: "₹3000", description: "Elegant zirconia-studded blue ring" },
     { id: 2, image: "/images/7.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹2000", description: "Classic gold-plated cubic zirconia" },
-    { id: 3, image: "/images/1.jpg", heading: "Studded Sapphire Blue", price: "₹5000", description: "Gorgeous studded sapphire blue necklace" },
-    { id: 4, image: "/images/jemelimg4.png", heading: "Gold Plated Cubic Zirconia", price: "₹3000", description: "Gold-plated ring with cubic zirconia" },
-    { id: 5, image: "/images/jemelimg5.jpg", heading: "Zirconia Studded Blue", price: "₹3000", description: "Beautiful zirconia-studded blue ring" },
-    { id: 6, image: "/images/jemelimg6.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹2000", description: "Gold-plated cubic zirconia earring" },
-    { id: 7, image: "/images/jemelimg7.jpg", heading: "Studded Sapphire Blue", price: "₹5000", description: "Studded sapphire blue bracelet" },
-    { id: 8, image: "/images/jemelimg8.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹3000", description: "Gold-plated, zirconia-studded jewelry" },
+    { id: 3, image: "/images/37.jpg", heading: "Studded Sapphire Blue", price: "₹5000", description: "Gorgeous studded sapphire blue necklace" },
+    { id: 4, image: "/images/70.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹3000", description: "Gold-plated ring with cubic zirconia" },
+    { id: 5, image: "/images/8.jpg", heading: "Zirconia Studded Blue", price: "₹3000", description: "Beautiful zirconia-studded blue ring" },
+    { id: 6, image: "/images/10.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹2000", description: "Gold-plated cubic zirconia earring" },
+    { id: 7, image: "/images/39.jpg", heading: "Studded Sapphire Blue", price: "₹5000", description: "Studded sapphire blue bracelet" },
+    { id: 8, image: "/images/40.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹3000", description: "Gold-plated, zirconia-studded jewelry" },
     { id: 9, image: "/images/23.jpg", heading: "Studded Sapphire Blue", price: "₹5000", description: "Elegant studded sapphire blue jewelry" },
     { id: 10, image: "/images/25.jpg", heading: "Gold Plated Cubic Zirconia", price: "₹3000", description: "Gold-plated cubic zirconia piece" },
   ];
@@ -44,4 +44,4 @@ const ProductCart = () => {
   );
 };
 
-export default ProductCart;
+export default ProductCartTwo;
